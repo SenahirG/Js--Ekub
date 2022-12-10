@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> 
+  <!-- CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Equb</title>
+</head>
+<body>
+  <h1><b>Equb</b></h1>
+
+  <div id="containers">
+   <div id="nameDiv" class="input">Name: <input id="name"></div>
+   <div class="input">Age: <input id="age"></div>
+   <div class="input">Gender: <input id="gender"></div>
+   <div class="input">Amount: <input id="amount"></div>
+   <button id="button">Insert</button>
+  </div>
+
+  <table id="equbList"> 
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Gender</th>
+        <th>Amount</th>
+    </tr>
+  </table>
+
+  <div id="containers">
+    <button id="btn">Generate Name</button>
+    <div id="output">Click to see who is the LUCKY person!!</div>
+  </div>
+
+
+<figure class="highcharts-figure">
+  <div id="container"></div>
+  <p class="highcharts-description">
+  Chart showing members age differnce.
+  </p>
+</figure>
+
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/data.js"></script>
+<script src="https://code.highcharts.com/modules/drilldown.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+<script src="main.js"></script>
+
+</body>
+</html>
